@@ -11,3 +11,4 @@ package.json
 /.idea/jekyll.iml
 /.idea/modules.xml
 /.idea/vcs.xml
+.idea
