@@ -6,16 +6,25 @@
  * @param {number} limit 
  */
 function limitChars(str, limit) {
-  if (str.length > limit) return `${str.substring(0, limit)} ...`;
+  if (str.length > limit) return `${str.substring(0, limit)} ...`
+  else{ return str }
 }
 
 
-// title cards
-
-const title = document.getElementsByClassName('post-title')[0];
-title.innerHTML = limitChars(title.textContent , 55);
 
 
-// excerpt card
- const excerpt = document.getElementsByClassName('post-excerpt')[0];
-excerpt.innerHTML = limitChars(excerpt.textContent , 96);
+// function limitChars to titles
+const titles = document.getElementsByClassName('post-title');
+for(let i = 0 ; i < titles.length ; i++){
+  const str = titles[i].innerHTML;
+  titles[i].innerHTML = limitChars(str,55) 
+}
+
+
+// function limitChars to excerpts
+const excerpts = document.getElementsByClassName('post-excerpt');
+for(let i = 0 ; i < excerpts.length ; i++){
+  const str = excerpts[i].innerHTML;
+  excerpts[i].innerHTML = limitChars(str,80) 
+}
+

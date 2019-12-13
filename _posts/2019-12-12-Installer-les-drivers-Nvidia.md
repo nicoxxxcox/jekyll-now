@@ -2,6 +2,7 @@
 layout: post
 title: Installer ou mettre à jours les drivers Nvidia sur Hackintosh
 excerpt : un petit script bien sympatique qui nous facilite la vie lorsqu'il s'agit d'installer ou de mettre à jours les drivers Nvidia sur son hackintosh.
+tags : [Hackintosh]
 ---
 
 Voici un petit script bien sympatique qui nous facilite la vie lorsqu'il s'agit d'installer ou de mettre à jours les drivers Nvidia sur son hackintosh.
