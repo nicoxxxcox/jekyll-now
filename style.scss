@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+@import "typography";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -147,8 +148,21 @@ img {
 /*********************/
 
 //
+// nav
+//
+
+.nav-item:hover{
+  color: $blue;
+}
+
+//
 // hero
 //
+
+.main-title{
+  font-family: $font-mono-bold;
+  color: $blue;
+}
 
 .hero-heading{
   font-size: 8rem;
@@ -177,6 +191,8 @@ img {
 //
 // .main
 //
+
+
 
 .posts > .post {
   padding-bottom: 2em;
