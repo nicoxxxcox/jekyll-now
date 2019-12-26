@@ -19,9 +19,10 @@ html {
 }
 
 body {
-	background: $white;
+	background: repeating-linear-gradient(0deg, rgb(237, 237, 237) 0px, rgb(237, 237, 237) 1px,transparent 1px, transparent 71px),repeating-linear-gradient(90deg, rgb(237, 237, 237) 0px, rgb(237, 237, 237) 1px,transparent 1px, transparent 71px),linear-gradient(90deg, hsl(122,0%,100%),hsl(122,0%,100%));
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  
 }
 
 .container {
@@ -37,7 +38,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
@@ -160,7 +160,7 @@ img {
 //
 
 .main-title{
-  font-family: $font-mono-bold;
+  font-family: $font-sansserif-bold;
   color: $blue;
 }
 
@@ -178,6 +178,10 @@ img {
   font-family: raleway , sans-serif;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.btn-rounded{
+  border-radius : 25px;
 }
 
 
@@ -224,8 +228,20 @@ img {
   }
 }
 
+.social{
+  display: block;
+}
+
+.social-icon{
+  padding : 1rem;
+}
+
+.followme{
+  font-family: $font-sansserif-bold;
+}
+
 .wrapper-footer {
-  margin-top: 50px;
+  margin-top: 5rem;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
@@ -233,7 +249,7 @@ img {
 
 footer {
   padding: 20px 0;
-  text-align: center;
+
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
