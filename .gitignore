@@ -2,6 +2,7 @@ _site
 .DS_Store
 .jekyll
 .jekyll-metadata
+.jekill-cache
 .bundle
 .sass-cache
 Gemfile
@@ -12,3 +13,9 @@ package.json
 /.idea/modules.xml
 /.idea/vcs.xml
 .idea
+.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910
+.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/20/4cd43588fc3c9384bf4d82cfa2390cea42d2c957c5d595abce017b60ab5dae
+/.jekill-cache
+.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/65/e99a99f4ca56b065e89db1cf84cdcebfc657a06877a9c263c778e94c81f739
+.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/98/692c090a4bcae6336ebdd37256dabd46fc40548d536c5349b8070022527819
+.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/b1/88abf2ca9ad6cdecf5928db187f23c168bfecef6de948b2c76bca69d01cd61
