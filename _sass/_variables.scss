@@ -12,7 +12,7 @@ $font-mono-bold: "space_monobold", monospace;
 // Colors
 $blue: #3a25ff;
 @mixin gradient-blue {
-  background: -webkit-linear-gradient(left, #01c6f0, #115197);
+  background: -webkit-linear-gradient(left,$blue, #01c6f0);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
