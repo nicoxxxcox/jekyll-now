@@ -1,17 +1,22 @@
-
 //
 // VARIABLES
 //
 
 //font-family
-$font-sansserif-light : "Space Grotesk light", arial , sans-serif ;
-$font-sansserif-regular :"Space Grotesk regular", arial , sans-serif ;
-$font-sansserif-bold :"Space Grotesk bold", arial , sans-serif ;
-$font-mono-regular : "space_monoregular", monospace;
-$font-mono-bold : "space_monobold", monospace;
+$font-sansserif-light: "Space Grotesk light", arial, sans-serif;
+$font-sansserif-regular: "Space Grotesk regular", arial, sans-serif;
+$font-sansserif-bold: "Space Grotesk bold", arial, sans-serif;
+$font-mono-regular: "space_monoregular", monospace;
+$font-mono-bold: "space_monobold", monospace;
 
 // Colors
 $blue: #3a25ff;
+@mixin gradient-blue {
+  background: -webkit-linear-gradient(left, #01c6f0, #115197);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 // Grays
 $black: #000;
