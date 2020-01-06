@@ -25,6 +25,6 @@ for(let i = 0 ; i < titles.length ; i++){
 const excerpts = document.getElementsByClassName('post-excerpt');
 for(let i = 0 ; i < excerpts.length ; i++){
   const str = excerpts[i].innerHTML;
-  excerpts[i].innerHTML = limitChars(str,80) 
+  excerpts[i].innerHTML = limitChars(str,72) 
 }
 

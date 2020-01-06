@@ -26,14 +26,12 @@ $gray: #666;
 $lightGray: #eee;
 $white: #fff;
 
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
 
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
+// animations
+.fade-m{
+  transition : all 400ms;
 }
+// buttons
+ .btn-rounded {
+   border-radius: 25px;   
+ }
