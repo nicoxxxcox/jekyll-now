@@ -105,6 +105,7 @@ body {
 .post-title {
   @include gradient-blue;
   font-weight: 700;
+  min-height: 4.5rem;
 }
 
 .social {
