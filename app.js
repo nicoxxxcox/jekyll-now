@@ -14,7 +14,7 @@ function limitChars(str, limit) {
 
 
 // function limitChars to titles
-const titles = document.getElementsByClassName('post-title');
+const titles = document.getElementsByClassName('posts-title');
 for(let i = 0 ; i < titles.length ; i++){
   const str = titles[i].innerHTML;
   titles[i].innerHTML = limitChars(str,55) 

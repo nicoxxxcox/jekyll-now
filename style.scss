@@ -102,6 +102,11 @@ body {
     text-decoration: none;
   }
 }
+.posts-title {
+  @include gradient-blue;
+  font-weight: 700;
+  min-height: 4.5rem;
+}
 .post-title {
   @include gradient-blue;
   font-weight: 700;
