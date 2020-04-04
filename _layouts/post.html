@@ -8,16 +8,17 @@ layout: default
   </div>
   
 </div>
-<article class="post">
-  <h1 class="post-title my-5">{{ page.title }}</h1>
-
-  <div class="entry">
-    {{ content }}
-  </div>
-
-  <div class="date">
-    Article écrit le {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html %}
-</article>
+<div class="row">
+    <div class="col-md-10 offset-md-1">
+        <article class="post">
+          <h1 class="post-title my-5">{{ page.title }}</h1>        
+          <div class="entry post-content">
+            {{ content }}
+          </div>        
+          <div class="date">
+            Article écrit le {{ page.date | date: "%B %e, %Y" }}
+          </div>        
+          {% include disqus.html %}
+        </article>
+    </div>
+</div>

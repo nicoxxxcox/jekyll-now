@@ -39,8 +39,12 @@ body {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: #bbb;
   margin-top: 3rem;
+}
+
+.highlighter-rouge{
+  color: blue;
 }
 
 // // Specify the color of the selection
@@ -83,9 +87,7 @@ body {
     background-clip: border-box;
   }
 
-  .entry p{
-    font-size: 1.2rem;
-  }
+
 
   .comments {
     margin-top: 10px;
@@ -111,6 +113,12 @@ body {
   @include gradient-blue;
   font-weight: 700;
   min-height: 4.5rem;
+}
+
+.post-content{
+  p{
+    font-size: 1.5rem;
+  }
 }
 
 .social {
