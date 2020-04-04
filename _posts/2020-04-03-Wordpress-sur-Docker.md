@@ -5,9 +5,11 @@ excerpt : Un environnement de developpement complet wordpress sur Docker
 tags : [Docker,Wordpress]
 ---
 
-Voici un Docker-compose simple et bien sympatique pour lancer une instance de Wordpress avec le MySql qui va bien et son PhpMyAdmin aux petits oignons
+Voici un Docker-compose simple et bien sympatique pour lancer une instance de Wordpress avec le MySql qui va bien et son PhpMyAdmin aux petits oignons.
 
-`
+Pour que nos containers se lancent dans notre dossier de travail il faut y créer le fichier docker-compose.yaml :
+
+~~~ yaml
 version: '3'
 
 services:
@@ -57,7 +59,7 @@ networks:
 volumes:
   db_data:
 
-`
+~~~
 
 Pour lancer les containers :
 
