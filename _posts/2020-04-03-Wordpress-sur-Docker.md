@@ -67,7 +67,7 @@ Pour lancer les containers :
 docker-compose up -d
 `
 
-Pour les eteindres :
+Pour les eteindre :
 
 `
 docker-compose down
